@@ -146,6 +146,15 @@ header {
   border-radius: 200px;
   transition: background-color 0.2s, border 0.2s, color 0.2s;
 }
+.btnh:link,
+.btnh:visited {
+  display: inline-block;
+  padding: 10px 30px;
+  font-weight: 300;
+  text-decoration: none;
+  border-radius: 0px;
+  transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
 
 .btn-full:link,
 .btn-full:visited {
@@ -161,6 +170,11 @@ header {
   color: #e67e22;
 }
 
+.btn-ghosth:link,
+.btn-ghosth:visited {
+  border: 20px solid ##0cf5c0;
+  color: #e67e22;
+}
 .btn:hover,
 .btn:active {
   background-color: #cf6d17;
@@ -174,6 +188,11 @@ header {
 .btn-ghost:hover,
 .btn-ghost:active {
   border: 1px solid #cf6d17;
+  color: #fff;
+}
+.btn-ghosth:hover,
+.btn-ghosth:active {
+  border: 20px solid ##0cf5c0;
   color: #fff;
 }
 
